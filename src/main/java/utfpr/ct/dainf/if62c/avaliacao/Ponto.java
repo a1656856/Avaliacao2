@@ -44,10 +44,22 @@ public class Ponto {
  
         
    
-      
+        
+    public double dist(Ponto b){
+        
+        double a;
+        
+        a = Math.sqrt(Math.pow(this.getX()-b.getX(),2) + Math.pow(this.getY()-b.getY(),2) + Math.pow(this.getZ()-b.getZ(),2));
+        
+        
+        
+        return a;
+        
+    }
     
     
-
+    
+    
     
     
 
